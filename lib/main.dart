@@ -12,7 +12,7 @@ class MyFlutter extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: text,
+          title: Text("Salom"),
         ),
       ),
     );
