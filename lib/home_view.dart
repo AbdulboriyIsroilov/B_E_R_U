@@ -19,7 +19,16 @@ class HomeView extends StatelessWidget {
           ),
         ),
         centerTitle: true,
-        leading: Icon(Icons.arrow_back),
+        leadingWidth: 60,
+        leading: Container(
+          width: 30,
+          height: 30,
+          color: Colors.yellow,
+          child: Icon(
+            Icons.arrow_back,
+            color: Colors.white,
+          ),
+        ),
         actionsPadding: EdgeInsets.only(right: 20),
         actions: [
           Icon(Icons.add_a_photo_outlined),
