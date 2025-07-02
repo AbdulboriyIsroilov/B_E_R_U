@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class home_scaffold extends StatelessWidget {
-  const home_scaffold({
+class HomeView extends StatelessWidget {
+  const HomeView({
     super.key,
   });
 
